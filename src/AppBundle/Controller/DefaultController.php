@@ -15,5 +15,16 @@ class DefaultController extends Controller
     {
         return $this->render('default/index.html.twig');
     }
+    
+       /**
+     * @Route("/yolo.html", name="yolo")
+     */
+    public function yoloAction()
+    {
+        return $this->render('default/yolo.html.twig');
+    }
+    
+    
+ 
 
 }
