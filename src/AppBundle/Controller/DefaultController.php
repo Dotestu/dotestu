@@ -23,7 +23,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/yolo.html.twig');
     }
-    
+
+     /**
+     * @Route("/spike.html", name="spike")
+     */
+    public function spikeAction()
+    {
+        return $this->render('default/spik.html.twig');
+    }
     
  
 
